@@ -62,45 +62,45 @@
         </nav>
     </div>
 
-    <div class="container fluid">
+    <div class="container-fluid">
         <div class="row">
             <section>
-                <form action="a" method="POST" name="Contact_form">
-                    <div class="input-group">
+                <form action="#" method="POST" name="contact_form">
+                    <div class="mb-3 mt-3">
                         <h2>Contact Us</h2>
+
                     </div>
-                    <div class="input-group">
-                        <label for="fullname">Fullname</label>
-                        <input type="text" placeholder="i.e Darryl Ng" required />
-                        <span>Full name is required</span>
+                    <div class="mb-3">
+                        <label for="fullname" class="form-label">Fullname</label>
+                        <input type="text" placeholder="i.e. Darryl Ng" required class="form-control" />
+                        <span>Full Name is required</span>
                     </div>
 
-                    <div class="input-group">
-                        <label for="email">Email</label>
-                        <input type="email" placeholder="i.e darrylng@gmail.com" required />
-                        <span>Email is required in proper email format, i.e someone@example.com</span>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" placeholder="i.e. darrylng@nus.edu.sg" required class="form-control" />
+                        <span>Email is required in proper email format, i.e. someone@example.com</span>
                     </div>
 
-                    <div class="input-group">
-                        <label for="website">Website</label>
-                        <input type="url" placeholder="i.e https://iss.nus.edu.sg" required pattern="(http/https)://.+" />
-                        <span>URL is required in proper URL format, i.e http://www.example.com</span>
+                    <div class="mb-3">
+                        <label for="website" class="form-label">Website</label>
+                        <input type="url" placeholder="i.e. https://iss.nus.edu.sg" required
+                            pattern="(http|https)://.+" class="form-control" />
+                        <span>URL is required in proper url format, i.e. http://www.example.com</span>
                     </div>
 
-                    <div class="input-group">
-                        <label for="comments">Comments</label>
-                        <textarea name="comments" cols="50" rows="10"></textarea>
-                        
+                    <div class="mb-3">
+                        <label for="comments" class="form-label">Comments</label>
+                        <textarea name="comments" cols="50" rows="10" class="form-control"></textarea>
                     </div>
 
-                    <div class="input-group">
+                    <div class="mb-3">
                         <button type="submit">Submit Form</button>
                     </div>
                 </form>
             </section>
         </div>
     </div>
-
 
     <footer>
         Copyright &copy; 2023, COMworks Pte. Ltd. All Rights Reserved.
